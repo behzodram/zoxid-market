@@ -1,0 +1,16 @@
+{
+  "name": "Zoxid Mini market",
+  "short_name": "Zoxid",
+  "description": "Zoxid Mini market — Gʻijduvondagi savdo doʻkoni.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#17392C",
+  "theme_color": "#17392C",
+  "lang": "uz",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://behzodram.github.io/zoxid-market/sitemap.xml

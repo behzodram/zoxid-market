@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zoxid Mini market">
+  <defs>
+    <linearGradient id="zx-g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E6B4F"/>
+      <stop offset="1" stop-color="#17392C"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#zx-g)"/>
+  <path d="M17 19h30v8L29.4 39H47v8H17v-8l17.6-12H17z" fill="#FCF8F1"/>
+  <circle cx="47" cy="19" r="6" fill="#F0A94C"/>
+</svg>

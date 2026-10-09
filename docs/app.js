@@ -69,7 +69,6 @@
       footNav: 'Разделы',
       footContact: 'Контакты',
       footMaps: 'Профиль в Google Maps',
-      footLang: 'Язык',
       footNote: 'Гиждуван, Узбекистан'
     },
     en: {
@@ -134,7 +133,6 @@
       footNav: 'Sections',
       footContact: 'Contact',
       footMaps: 'Google Maps profile',
-      footLang: 'Language',
       footNote: 'Gijduvon, Uzbekistan'
     }
   };

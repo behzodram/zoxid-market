@@ -441,10 +441,6 @@ a.loc-card:hover .lc-arrow{transform:translateX(5px)}
   transition:color .3s var(--ease), transform .35s var(--ease);
 }
 .foot-col a:hover{color:var(--apricot); transform:translateX(4px)}
-.lang-stack{background:rgba(252,248,241,.08); padding:5px; width:max-content}
-.lang-stack .lang-btn{color:rgba(252,248,241,.8); font-size:.85rem; letter-spacing:.02em; padding:8px 14px}
-.lang-stack .lang-btn:hover{background:rgba(252,248,241,.14)}
-.lang-stack .lang-btn.is-active{background:var(--apricot); color:#2A1A06; box-shadow:0 4px 14px rgba(240,169,76,.34)}
 
 .foot-bottom{
   display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;
@@ -499,13 +495,24 @@ a.loc-card:hover .lc-arrow{transform:translateX(5px)}
   .nav.is-open{transform:translateY(0)}
   .nav a{padding:15px 16px; font-size:1.1rem; border-radius:16px; background:rgba(46,107,79,.07)}
   .burger{display:block}
-  .header-actions .lang{display:none}
+  .header-inner{gap:14px}
+  .header-actions{gap:8px}
+  .lang{padding:3px; gap:2px}
+  .lang-btn{padding:8px 11px; font-size:.78rem}
+}
+@media (max-width:420px){
+  .header-inner{gap:8px}
+  .brand{gap:8px}
+  .brand-mark{width:34px; height:34px; border-radius:10px}
+  .brand-text strong{font-size:1.02rem}
+  .brand-text small{font-size:.6rem; letter-spacing:.16em}
+  .lang-btn{padding:8px 8px; font-size:.74rem; letter-spacing:.03em}
 }
 @media (max-width:640px){
   .cards{grid-template-columns:1fr}
   .foot-top{grid-template-columns:1fr}
-  .mobile-call{display:flex}
-  body{padding-bottom:0}
+  .mobile-call{display:flex; bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+  .footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
   .hero-cta .btn{flex:1 1 auto; justify-content:center}
   .scroll-cue{display:none}
   .section{padding:64px 0}

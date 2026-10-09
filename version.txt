@@ -1,2 +1,3 @@
+v 1.0.2 => main: bazi notogori sozlar olib tashlandi
 v 1.0.1 => main: bazi notogori sozlar olib tashlandi
 v 1.0.0 => main: bazi notogori sozlar olib tashlandi
